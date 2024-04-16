@@ -8,6 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      animation: {
+        'marquee': 'marquee 15s linear infinite',
+        'marquee-10s': 'marquee 10s linear infinite',
+      },
+      width:{
+        '180': '180%',
+      },
+      colors:{
+        'primary-red': '#f02d34',
+        'primary-blue': '#324d67',
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
