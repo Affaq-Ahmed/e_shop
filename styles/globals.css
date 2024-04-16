@@ -153,11 +153,11 @@ span.text-red {
 }
 
 .footer-banner-container {
-	@apply py-[100px] px-10 bg-primary-red rounded-2xl relative h-[560px] md:h-[400px] w-full mt-[80px] md:mt-[120px] text-white;
+	@apply py-[100px] px-10 bg-primary-red rounded-2xl relative h-[560px] md:h-[400px] w-full mt-[80px] md:mt-[120px] text-white leading-[1];
 }
 
 .banner-desc {
-	@apply flex justify-between;
+	@apply flex justify-between flex-wrap;
 }
 
 .banner-desc button {
