@@ -65,7 +65,7 @@ span.text-red {
 }
 
 .logo {
-	@apply text-gray-500 text-lg;
+	@apply text-gray-500 text-xl;
 }
 
 .cart-icon {
@@ -77,7 +77,7 @@ span.text-red {
 }
 
 .cart-item-qty {
-	@apply absolute -right-2 text-xs w-4 h-4 bg-primary-red text-slate-50 rounded-full font-semibold items-center;
+	@apply absolute -top-0.5 -right-2 text-xs font-semibold w-[18px] h-[18px] bg-primary-red text-slate-50 rounded-full items-center;
 }
 
 .products-container {
